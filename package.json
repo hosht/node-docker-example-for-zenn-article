@@ -1,0 +1,24 @@
+{
+  "name": "node-docker-example-for-zenn-article",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/hosht/node-docker-example-for-zenn-article.git",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "build": "tsc",
+    "server": "node --enable-source-maps ."
+  },
+  "author": "hosht <hoshino@hey.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40",
+  "devDependencies": {
+    "@types/express": "5.0.5",
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  },
+  "type": "module"
+}
